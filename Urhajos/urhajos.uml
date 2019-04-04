@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>balazs.urhajos</OriginalElement>
+  <nodes>
+    <node x="205.90022351964046" y="704.0">balazs.urhajos.Main</node>
+    <node x="53.71569767441849" y="0.0">balazs.urhajos.FilePaths</node>
+    <node x="65.80958243762632" y="387.0">balazs.urhajos.Ship</node>
+    <node x="166.40022351964046" y="625.0">balazs.urhajos.GameSetupWrapper</node>
+    <node x="70.02522351964049" y="833.0">balazs.urhajos.ShipTest</node>
+    <node x="106.88236637678335" y="228.0">balazs.urhajos.GamingPane</node>
+    <node x="256.24948822552284" y="833.0">balazs.urhajos.ItemTest</node>
+    <node x="591.5798453683799" y="0.0">balazs.urhajos.res</node>
+    <node x="202.52522351964046" y="546.0">balazs.urhajos.GameSetup</node>
+    <node x="248.80958243762632" y="228.0">balazs.urhajos.Planet</node>
+    <node x="228.42998338870424" y="89.0">balazs.urhajos.Item</node>
+    <node x="409.1799833887043" y="89.0">balazs.urhajos.Constants</node>
+    <node x="379.72134714350864" y="228.0">balazs.urhajos.Missile</node>
+    <node x="408.642870578464" y="833.0">balazs.urhajos.MissileTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="balazs.urhajos.GamingPane" target="balazs.urhajos.Constants">
+      <point x="29.0" y="-14.5" />
+      <point x="193.88236637678335" y="208.0" />
+      <point x="430.8228405315614" y="208.0" />
+      <point x="-28.85714285714289" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Item" target="balazs.urhajos.FilePaths">
+      <point x="0.0" y="-14.5" />
+      <point x="264.4299833887043" y="69.0" />
+      <point x="124.9656976744185" y="69.0" />
+      <point x="23.75" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Missile" target="balazs.urhajos.FilePaths">
+      <point x="10.5" y="-14.5" />
+      <point x="432.22134714350864" y="138.0" />
+      <point x="398.6799833887043" y="138.0" />
+      <point x="398.6799833887043" y="59.0" />
+      <point x="140.79903100775186" y="59.0" />
+      <point x="39.58333333333337" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.ShipTest" target="balazs.urhajos.GamingPane">
+      <point x="-37.19999999999999" y="-14.5" />
+      <point x="79.3252235196405" y="813.0" />
+      <point x="55.30958243762632" y="813.0" />
+      <point x="55.30958243762632" y="307.0" />
+      <point x="115.16808066249763" y="307.0" />
+      <point x="-49.71428571428572" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.MissileTest" target="balazs.urhajos.Main">
+      <point x="-39.75" y="-14.5" />
+      <point x="421.892870578464" y="753.0" />
+      <point x="268.40022351964046" y="753.0" />
+      <point x="25.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Planet" target="balazs.urhajos.Item">
+      <point x="-20.25" y="-14.5" />
+      <point x="269.0595824376263" y="188.0" />
+      <point x="264.4299833887043" y="188.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetup" target="balazs.urhajos.GamingPane">
+      <point x="-19.235294117647072" y="-14.5" />
+      <point x="237.7899294019934" y="466.0" />
+      <point x="193.01821868282187" y="466.0" />
+      <point x="193.01821868282187" y="297.0" />
+      <point x="181.4537949482119" y="297.0" />
+      <point x="16.571428571428555" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetup" target="balazs.urhajos.Item">
+      <point x="0.0" y="-14.5" />
+      <point x="257.02522351964046" y="436.0" />
+      <point x="238.30958243762632" y="436.0" />
+      <point x="238.30958243762632" y="188.0" />
+      <point x="256.4299833887043" y="188.0" />
+      <point x="-8.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.MissileTest" target="balazs.urhajos.Missile">
+      <point x="13.25" y="-14.5" />
+      <point x="474.892870578464" y="773.0" />
+      <point x="451.41108926128595" y="773.0" />
+      <point x="451.41108926128595" y="367.0" />
+      <point x="456.72134714350864" y="367.0" />
+      <point x="35.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Ship" target="balazs.urhajos.Planet">
+      <point x="20.285714285714278" y="-14.5" />
+      <point x="121.5952967233406" y="327.0" />
+      <point x="256.9095824376263" y="327.0" />
+      <point x="-32.400000000000006" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.ItemTest" target="balazs.urhajos.Item">
+      <point x="-35.25" y="-14.5" />
+      <point x="267.99948822552284" y="773.0" />
+      <point x="22.0" y="773.0" />
+      <point x="22.0" y="158.0" />
+      <point x="232.42998338870424" y="158.0" />
+      <point x="-32.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.ItemTest" target="balazs.urhajos.Constants">
+      <point x="35.25" y="-14.5" />
+      <point x="338.49948822552284" y="803.0" />
+      <point x="529.5798453683799" y="803.0" />
+      <point x="529.5798453683799" y="188.0" />
+      <point x="488.53712624584705" y="188.0" />
+      <point x="28.857142857142833" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Ship" target="balazs.urhajos.FilePaths">
+      <point x="-30.428571428571445" y="-14.5" />
+      <point x="70.88101100905487" y="297.0" />
+      <point x="48.57142857142861" y="297.0" />
+      <point x="48.57142857142861" y="69.0" />
+      <point x="93.29903100775184" y="69.0" />
+      <point x="-7.916666666666657" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Main" target="balazs.urhajos.GameSetupWrapper">
+      <point x="-18.75" y="-14.5" />
+      <point x="224.65022351964046" y="679.0" />
+      <point x="204.90022351964046" y="679.0" />
+      <point x="-38.5" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GamingPane" target="balazs.urhajos.GameSetup">
+      <point x="49.71428571428572" y="14.5" />
+      <point x="214.59665209106907" y="317.0" />
+      <point x="205.84174809458656" y="317.0" />
+      <point x="205.84174809458656" y="446.0" />
+      <point x="250.6134588137581" y="446.0" />
+      <point x="-6.411764705882376" y="-14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetup" target="balazs.urhajos.Constants">
+      <point x="51.29411764705884" y="-14.5" />
+      <point x="308.3193411666993" y="526.0" />
+      <point x="491.20520690834473" y="526.0" />
+      <point x="491.20520690834473" y="208.0" />
+      <point x="459.6799833887043" y="208.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetupWrapper" target="balazs.urhajos.FilePaths">
+      <point x="-61.599999999999994" y="-14.5" />
+      <point x="181.8002235196405" y="600.0" />
+      <point x="0.0" y="600.0" />
+      <point x="0.0" y="49.0" />
+      <point x="61.63236434108515" y="49.0" />
+      <point x="-39.58333333333334" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Missile" target="balazs.urhajos.Item">
+      <point x="-10.5" y="-14.5" />
+      <point x="411.22134714350864" y="148.0" />
+      <point x="296.4299833887043" y="148.0" />
+      <point x="32.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Ship" target="balazs.urhajos.GamingPane">
+      <point x="10.142857142857167" y="-14.5" />
+      <point x="111.45243958048349" y="317.0" />
+      <point x="131.73950923392619" y="317.0" />
+      <point x="-33.14285714285715" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetup" target="balazs.urhajos.Ship">
+      <point x="-44.882352941176464" y="-14.5" />
+      <point x="212.142870578464" y="506.0" />
+      <point x="110.18458243762632" y="506.0" />
+      <point x="8.875" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Ship" target="balazs.urhajos.Item">
+      <point x="-20.285714285714278" y="-14.5" />
+      <point x="81.02386815191204" y="287.0" />
+      <point x="58.71428571428572" y="287.0" />
+      <point x="58.71428571428572" y="168.0" />
+      <point x="240.42998338870424" y="168.0" />
+      <point x="-24.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetup" target="balazs.urhajos.Missile">
+      <point x="38.470588235294144" y="-14.5" />
+      <point x="295.4958117549346" y="506.0" />
+      <point x="352.70865985929254" y="506.0" />
+      <point x="352.70865985929254" y="347.0" />
+      <point x="400.72134714350864" y="347.0" />
+      <point x="-21.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetup" target="balazs.urhajos.FilePaths">
+      <point x="-51.29411764705878" y="-14.5" />
+      <point x="205.73110587258168" y="516.0" />
+      <point x="11.0" y="516.0" />
+      <point x="11.0" y="59.0" />
+      <point x="77.4656976744185" y="59.0" />
+      <point x="-23.75" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GamingPane" target="balazs.urhajos.FilePaths">
+      <point x="-29.0" y="-14.5" />
+      <point x="135.88236637678335" y="148.0" />
+      <point x="118.5" y="148.0" />
+      <point x="118.5" y="69.0" />
+      <point x="109.13236434108518" y="69.0" />
+      <point x="7.916666666666686" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetupWrapper" target="balazs.urhajos.GameSetup">
+      <point x="0.0" y="-14.5" />
+      <point x="-13.625" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetup" target="balazs.urhajos.GameSetupWrapper">
+      <point x="40.875" y="14.5" />
+      <point x="297.90022351964046" y="600.0" />
+      <point x="305.0002235196405" y="600.0" />
+      <point x="61.60000000000002" y="-14.5" />
+    </edge>
+    <edge source="balazs.urhajos.MissileTest" target="balazs.urhajos.Constants">
+      <point x="39.75" y="-14.5" />
+      <point x="501.392870578464" y="813.0" />
+      <point x="540.5798453683799" y="813.0" />
+      <point x="540.5798453683799" y="178.0" />
+      <point x="502.9656976744185" y="178.0" />
+      <point x="43.28571428571422" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.ItemTest" target="balazs.urhajos.Missile">
+      <point x="11.75" y="-14.5" />
+      <point x="314.99948822552284" y="783.0" />
+      <point x="393.6799833887043" y="783.0" />
+      <point x="393.6799833887043" y="367.0" />
+      <point x="428.72134714350864" y="367.0" />
+      <point x="7.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.ShipTest" target="balazs.urhajos.Ship">
+      <point x="-18.600000000000023" y="-14.5" />
+      <point x="97.92522351964047" y="803.0" />
+      <point x="73.87208243762632" y="803.0" />
+      <point x="-26.625" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.ItemTest" target="balazs.urhajos.Main">
+      <point x="-11.75" y="-14.5" />
+      <point x="291.49948822552284" y="763.0" />
+      <point x="243.40022351964046" y="763.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Ship" target="balazs.urhajos.Missile">
+      <point x="30.428571428571445" y="-14.5" />
+      <point x="131.73815386619776" y="337.0" />
+      <point x="386.72134714350864" y="337.0" />
+      <point x="-35.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Ship" target="balazs.urhajos.Constants">
+      <point x="0.0" y="-14.5" />
+      <point x="101.30958243762632" y="297.0" />
+      <point x="96.38236637678335" y="297.0" />
+      <point x="96.38236637678335" y="198.0" />
+      <point x="416.39426910298994" y="198.0" />
+      <point x="-43.28571428571428" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.ShipTest" target="balazs.urhajos.Constants">
+      <point x="37.19999999999999" y="-14.5" />
+      <point x="153.72522351964048" y="793.0" />
+      <point x="502.20520690834473" y="793.0" />
+      <point x="502.20520690834473" y="198.0" />
+      <point x="474.1085548172757" y="198.0" />
+      <point x="14.428571428571445" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.ShipTest" target="balazs.urhajos.Main">
+      <point x="18.600000000000023" y="-14.5" />
+      <point x="135.1252235196405" y="783.0" />
+      <point x="218.40022351964046" y="783.0" />
+      <point x="-25.0" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.Missile" target="balazs.urhajos.Constants">
+      <point x="31.5" y="-14.5" />
+      <point x="453.22134714350864" y="208.0" />
+      <point x="445.2514119601328" y="208.0" />
+      <point x="-14.428571428571445" y="14.5" />
+    </edge>
+    <edge source="balazs.urhajos.GameSetup" target="balazs.urhajos.Planet">
+      <point x="19.235294117647072" y="-14.5" />
+      <point x="276.26051763728753" y="476.0" />
+      <point x="306.97410103576306" y="476.0" />
+      <point x="306.97410103576306" y="327.0" />
+      <point x="305.5095824376263" y="327.0" />
+      <point x="16.19999999999999" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="317.9166666666665" y="444.99999999999994" />
+  <SelectedNodes>
+    <node>balazs.urhajos.Main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
